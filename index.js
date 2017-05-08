@@ -18,4 +18,4 @@ seneca.use('./redis-queue-transport', {
   })
 })
 
-seneca.listen({type: 'redis-queue', pin: 'foo:one'})
+seneca.listen({type: 'redis-queue', pin: 'role: search, cmd: get_reply'})
